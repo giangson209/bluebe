@@ -13,196 +13,127 @@
 			</div>
 		</div> 
 	</section>
-	<section class="box-loiich">
-		<div class="icon-abs"><img src="images/icon-loiich.png" class="img-fluid" alt=""></div>
-		<div class="container">
-			<div class="title text-center">
-				<h2><label>Lợi ích</label> khi cho trẻ học tại <br><span>HA Junior</span></h2>
-			</div>
-			<div class="content-loiich">
-				<div class="row align-items-center">
-					<div class="col-lg-6">
-						<div class="avarta text-center"><img src="images/loiich.png" class="img-fluid" alt=""></div>
-					</div>
-					<div class="col-lg-6">
-						<div class="txt-loiich">
-							<div class="item-loiich">
-								<div class="t-loiich">
-									<div class="icon"><img src="images/tick.png" class="img-fluid" alt=""></div>
-									<h4>Được đào tạo tiếng Anh chuẩn Cambridge.</h4>
-								</div>
-							</div>
-							<div class="item-loiich">
-								<div class="t-loiich">
-									<div class="icon"><img src="images/tick.png" class="img-fluid" alt=""></div>
-									<h4>Giáo viên trong nước/Quốc tế:</h4>
-								</div>
-								<div class="desc">
-									<ul>
-										<li>Học viên từ lớp 1 đến lớp 3 sẽ được học với giáo viên bản xứ 100%.</li>
-										<li>Học viên lớp 4 và lớp 5 sẽ được phân bổ 50% giáo viên Việt Nam và 50% giáo viên bản xứ chuẩn Quốc tế.</li>
-										<li>Học viên trong độ tuổi THCS sẽ được giảng dạy bởi 100% giáo viên Việt Nam có chuyên môn cao - giúp học viên định hướng thi cử</li>
-									</ul>
-								</div>
-							</div>
-							<div class="item-loiich">
-								<div class="t-loiich">
-									<div class="icon"><img src="images/tick.png" class="img-fluid" alt=""></div>
-									<h4>Cơ sở vật chất trang thiết bị giảng dạy hiện đại.</h4>
-								</div>
-							</div>
-							<div class="item-loiich">
-								<div class="t-loiich">
-									<div class="icon"><img src="images/tick.png" class="img-fluid" alt=""></div>
-									<h4>Đảm bảo cam kết đầu ra cho trẻ.</h4>
-								</div>
-							</div>
-						</div>
-						<div class="btn-main">
-							<a href="">Đăng ký học thử miễn phí</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>  
-	</section>
+    <section class="box-slogan">
+        <div class="container">
+            <div class="content-slogan">
+                <div class="title-slogan text-center"><img src="images/slogna.png" class="img-fluid" alt=""></div>
+                <div class="desc-slogan text-center">
+                    <p>Trung tâm ngoại ngữ <strong>BLUEBELL</strong> là một trong những địa chỉ tin cậy nhất trong việc đào tạo tiếng Anh, chuyên về khóa học IELTS, tiếng anh tiêu chuẩn quốc tế Cambridge.</p>
+                    <p><strong>BLUEBELL</strong> trực thuộc <strong>Công ty TNHH Phát Triển Giáo Dục HA</strong> do <strong>Mr. Nguyễn Mạnh Hà</strong> sáng lập vào năm 2015, với mong muốn mang đến cho mọi người một môi trường tiếng anh chuyên nghiệp và chất lượng, góp phần xóa nhòa khoảng cách về nền tảng giáo dục tiếng anh giữa các tỉnh thành và thủ đô Hà Nội.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+	<section class="box-route">
+        <div class="container">
+            <div class="title text-center">
+                <h2><label>Lộ trình</label> các khóa học của <span>BlueBell</span></h2>
+            </div>
+            <div class="list-route">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="item-route text-center">
+                            <div class="icon"><img src="images/route-1.png" class="img-fluid" alt=""></div>
+                            <div class="info">
+                                <h3>Được thiết kế rõ ràng</h3>
+                                <div class="desc">Lộ trình học được chuẩn bị và sắp xếp phù hợp với nhu cầu, trình độ của các học viên</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="item-route text-center">
+                            <div class="icon"><img src="images/route-2.png" class="img-fluid" alt=""></div>
+                            <div class="info">
+                                <h3>Khóa học đa dạng</h3>
+                                <div class="desc">Từ các khóa cho bé Mầm non, Tiếng Anh Tiểu học, Tiếng Anh Cơ sở cho đến các Khóa luyện IELTS</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="item-route text-center">
+                            <div class="icon"><img src="images/route-3.png" class="img-fluid" alt=""></div>
+                            <div class="info">
+                                <h3>Phát triển</h3>
+                                <div class="desc">Xây dựng khóa học từ vững nền đến nâng cao giúp học viên dễ dàng chinh phục hành trình Tiếng Anh.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 	<section class="box-course">
 		<div class="container">
 			<div class="title text-center">
-				<h2>Khóa học <label>tiêu biểu</label> cho trẻ <br>tại <span>HA Junior</span></h2>
+				<h2>Khám phá vô vàn khóa học lý thú tại <label><span>BlueBell</span></label></h2>
 			</div>
-			<div class="top-tab-course">
-				<ul>
-					<li><a href="javascript:void(0)" class="active" data-tab="course-1">Tiếng Anh Mầm non</a></li>
-					<li><a href="javascript:void(0)" data-tab="course-2">Tiếng Anh Tiểu học</a></li>
-					<li><a href="javascript:void(0)" data-tab="course-3">Tiếng Anh THCS</a></li>
-				</ul>
-			</div>
-			<div class="content-course-tab">
-				<div class="tab-content active" id="course-1">
-					<div class="slide-course">
-						<div class="item-slide">
-							<div class="item-course">
-								<div class="avarta"><a href="course-detail.php"><img src="images/course-3.png" class="img-fluid w-100" alt=""><span>Tiếng Anh Mầm non</span></a></div>
-								<div class="info">
-									<h3><a href="course-detail.php">Khóa Kiddie A</a></h3>
-									<p>Cho trẻ từ 4-5 tuổi</p>
-								</div>
-							</div>
-						</div>
-						<div class="item-slide">
-							<div class="item-course">
-								<div class="avarta"><a href="course-detail.php"><img src="images/course-2.png" class="img-fluid w-100" alt=""><span>Tiếng Anh Mầm non</span></a></div>
-								<div class="info">
-									<h3><a href="course-detail.php">Khóa Kiddie B</a></h3>
-									<p>Cho trẻ từ 4-5 tuổi</p>
-								</div>
-							</div> 
-						</div>
-						<div class="item-slide">
-							<div class="item-course">
-								<div class="avarta"><a href="course-detail.php"><img src="images/course-3.png" class="img-fluid w-100" alt=""><span>Tiếng Anh Mầm non</span></a></div>
-								<div class="info">
-									<h3><a href="course-detail.php">Khóa Kiddie C</a></h3>
-									<p>Cho trẻ từ 4-5 tuổi</p>
-								</div>
-							</div>
-						</div>
-						<div class="item-slide">
-							<div class="item-course">
-								<div class="avarta"><a href="course-detail.php"><img src="images/course-2.png" class="img-fluid w-100" alt=""><span>Tiếng Anh Mầm non</span></a></div>
-								<div class="info">
-									<h3><a href="course-detail.php">Khóa Kiddie A</a></h3>
-									<p>Cho trẻ từ 4-5 tuổi</p>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="tab-content" id="course-2">
-					<div class="slide-course">
-						<div class="item-slide">
-							<div class="item-course">
-								<div class="avarta"><a href="course-detail.php"><img src="images/course-1.png" class="img-fluid w-100" alt=""><span>Tiếng Anh Mầm non</span></a></div>
-								<div class="info">
-									<h3><a href="course-detail.php">Khóa Kiddie A</a></h3>
-									<p>Cho trẻ từ 4-5 tuổi</p>
-								</div>
-							</div>
-						</div>
-						<div class="item-slide">
-							<div class="item-course">
-								<div class="avarta"><a href="course-detail.php"><img src="images/course-2.png" class="img-fluid w-100" alt=""><span>Tiếng Anh Mầm non</span></a></div>
-								<div class="info">
-									<h3><a href="course-detail.php">Khóa Kiddie A</a></h3>
-									<p>Cho trẻ từ 4-5 tuổi</p>
-								</div>
-							</div> 
-						</div>
-						<div class="item-slide">
-							<div class="item-course">
-								<div class="avarta"><a href="course-detail.php"><img src="images/course-3.png" class="img-fluid w-100" alt=""><span>Tiếng Anh Mầm non</span></a></div>
-								<div class="info">
-									<h3><a href="">Khóa Kiddie A</a></h3>
-									<p>Cho trẻ từ 4-5 tuổi</p>
-								</div>
-							</div>
-						</div>
-						<div class="item-slide">
-							<div class="item-course">
-								<div class="avarta"><a href="course-detail.php"><img src="images/course-2.png" class="img-fluid w-100" alt=""><span>Tiếng Anh Mầm non</span></a></div>
-								<div class="info">
-									<h3><a href="course-detail.php">Khóa Kiddie A</a></h3>
-									<p>Cho trẻ từ 4-5 tuổi</p>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="tab-content" id="course-3">
-					<div class="slide-course">
-						<div class="item-slide">
-							<div class="item-course">
-								<div class="avarta"><a href="course-detail.php"><img src="images/course-1.png" class="img-fluid w-100" alt=""><span>Tiếng Anh Mầm non</span></a></div>
-								<div class="info">
-									<h3><a href="course-detail.php">Khóa Kiddie A</a></h3>
-									<p>Cho trẻ từ 4-5 tuổi</p>
-								</div>
-							</div>
-						</div>
-						<div class="item-slide">
-							<div class="item-course">
-								<div class="avarta"><a href="course-detail.php"><img src="images/course-2.png" class="img-fluid w-100" alt=""><span>Tiếng Anh Mầm non</span></a></div>
-								<div class="info">
-									<h3><a href="course-detail.php">Khóa Kiddie A</a></h3>
-									<p>Cho trẻ từ 4-5 tuổi</p>
-								</div>
-							</div> 
-						</div>
-						<div class="item-slide">
-							<div class="item-course">
-								<div class="avarta"><a href="course-detail.php"><img src="images/course-3.png" class="img-fluid w-100" alt=""><span>Tiếng Anh Mầm non</span></a></div>
-								<div class="info">
-									<h3><a href="course-detail.php">Khóa Kiddie A</a></h3>
-									<p>Cho trẻ từ 4-5 tuổi</p>
-								</div>
-							</div>
-						</div>
-						<div class="item-slide">
-							<div class="item-course">
-								<div class="avarta"><a href="course-detail.php"><img src="images/course-2.png" class="img-fluid w-100" alt=""><span>Tiếng Anh Mầm non</span></a></div>
-								<div class="info">
-									<h3><a href="course-detail.php">Khóa Kiddie A</a></h3>
-									<p>Cho trẻ từ 4-5 tuổi</p>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="btn-main text-center">
-				<a href="course.php"><span>Xem tất cả</span><img src="images/arrow-right.svg" class="img-fluid" alt=""></a>
-			</div>
+            <div class="list-khoahoc-home">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="item-bn-kh" style="background: url('images/kh-1.png') no-repeat center">
+                            <div class="info">
+                                <div class="top">
+                                    <h3>Khóa học cho trẻ tại <span>BlueBell</span></h3>
+                                </div>
+                                <div class="bot">
+                                    <div class="item">
+                                        <p>Tiếng Anh Mầm non (Cho trẻ từ 4-5 tuổi)</p>
+                                        <ul>
+                                            <li><a href="">KIDDIE A</a></li>
+                                            <li><a href="">KIDDIE b</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="item">
+                                        <p>Tiếng Anh Tiểu học (Cho trẻ từ 4-5 tuổi)</p>
+                                        <ul>
+                                            <li><a href="">PRIMARY A</a></li>
+                                            <li><a href="">PRIMARY b</a></li>
+                                            <li><a href="">PRIMARY c</a></li>
+                                            <li><a href="">PRIMARY d</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="item">
+                                        <p>Tiếng Anh THCS (Cho trẻ từ 4-5 tuổi)</p>
+                                        <ul>
+                                            <li><a href="">TEENIE A</a></li>
+                                            <li><a href="">TEENIE b</a></li>
+                                            <li><a href="">TEENIE c</a></li>
+                                            <li><a href="">TEENIE d</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="item-bn-kh" style="background: url('images/kh-2.png') no-repeat center">
+                            <div class="info">
+                                <div class="top">
+                                    <h3>Khóa học IELTS tại <span>BlueBell</span></h3>
+                                </div>
+                                <div class="bot">
+                                    <div class="item">
+                                        <p>Tiếng Anh Mầm non (Cho trẻ từ 4-5 tuổi)</p>
+                                        <ul>
+                                            <li><a href="">KIDDIE A</a></li>
+                                            <li><a href="">KIDDIE b</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="item">
+                                        <p>Tiếng Anh Tiểu học (Cho trẻ từ 4-5 tuổi)</p>
+                                        <ul>
+                                            <li><a href="">PRIMARY A</a></li>
+                                            <li><a href="">PRIMARY b</a></li>
+                                            <li><a href="">PRIMARY c</a></li>
+                                            <li><a href="">PRIMARY d</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 		</div>
 	</section>
 	<section class="box-form">
@@ -250,6 +181,53 @@
 			</div>
 		</div>
 	</section>
+    <section class="box-number">
+        <div class="container">
+            <div class="list-number">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="item-numb text-center" id="counter-box">
+                            <div class="numb"><span class="counter" data-number="547"></span><span>+</span></div>
+                            <p>Học viên đang theo học và đã tốt nghiệp</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="item-numb text-center" id="counter-box">
+                            <div class="numb"><span class="counter" data-number="10"></span><span>+</span></div>
+                            <p>Khóa học được đầu tư bài bản, kỹ lưỡng</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="item-numb text-center" id="counter-box">
+                            <div class="numb"><span class="counter" data-number="30"></span><span>+</span></div>
+                            <p>Giảng viên tâm huyết và giàu kinh nghiệm trong nghề</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="box-video">
+        <div class="container">
+            <div class="content-video">
+                <div class="row">
+                    <div class="col-md-8">
+                        <div class="video-big">
+                            <iframe width="1280" height="706" src="https://www.youtube.com/embed/khAKbJ2Xfn8" title="[VTV2] Từ nhà đến trường: Mr. Hà chia sẻ về việc học ngoại ngữ của học sinh" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="video-small">
+                            <div class="item-video-small">
+                                <div class="avarta"><img src="images/video-small.png" class="img-fluid w-100" alt=""></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
 	<section class="box-Achievements">
 		<div class="container">
@@ -611,16 +589,6 @@
 						</div>
 					</div>
 				</div>
-			</div>
-		</div>
-	</section>
-	<section class="box-video">
-		<div class="container">
-			<div class="content-video">
-				<div class="icon-abs abs-1"><img src="images/vd-1.png" class="img-fluid" alt=""></div>
-				<div class="icon-abs abs-2"><img src="images/vd-2.png" class="img-fluid" alt=""></div>
-				<div class="icon-abs abs-3"><img src="images/vd-3.png" class="img-fluid" alt=""></div>
-				<iframe width="1280" height="706" src="https://www.youtube.com/embed/khAKbJ2Xfn8" title="[VTV2] Từ nhà đến trường: Mr. Hà chia sẻ về việc học ngoại ngữ của học sinh" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 			</div>
 		</div>
 	</section>

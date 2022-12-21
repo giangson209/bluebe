@@ -49,7 +49,7 @@
     }
 }
 .title {
-	margin-bottom: 70px;
+	margin-bottom: 62px;
 	@media (max-width: 1400px) {
 		margin-bottom: 40px;
 	}
@@ -62,7 +62,6 @@
 	h2 {
 		font-size: 40px;
 		font-weight: 700;
-		font-family: 'Montserrat';
 		color: #212121;
 		position: relative;
     	z-index: 2;
@@ -70,7 +69,7 @@
 			font-size: 24px;
 		}
 		span {
-			color: $blue;
+			color: #1A61CC;
 		}
 	}
 	label {
@@ -161,81 +160,10 @@
 		}
 	}
 }
-.box-loiich {
-	padding: 156px 0;
-	position: relative;
-	@media (max-width: 1400px) {
-		padding: 100px 0;
-	}
-	@media (max-width: 1023px) {
-		padding: 64px 0;
-	}
-	@media (max-width: 767px) {
-		padding: 48px 0;
-	}
-	.icon-abs {
-		position: absolute;
-		bottom: 80px;
-		right: 0;
-		@media (max-width: 1023px) {
-			display: none;
-		}
-	}
-	.btn-main {
-		@media (max-width: 1023px) {
-			text-align: center;
-		}
-	}
-}
-.txt-loiich {
-	margin-bottom: 40px;
-	@media (max-width: 1023px) {
-		padding-top: 40px;
-	}
-}
-.item-loiich {
-	margin-bottom: 16px;
-	font-size: 18px;
-	@media (max-width: 767px) {
-		font-size: 16px;
-	}
-	&:last-child {
-		margin-bottom: 0;
-	}
-	.t-loiich {
-		display: flex;
-		.icon {
-			flex: 0 0 24px;
-		    margin-right: 8px;
-		    position: relative;
-		    top: 0;
-		    @media (max-width: 1400px) {
-		    	top: -3px;
-		    }
-		    @media (max-width: 767px) {
-		    	top: -6px;
-		    }
-		}
-		h4 {
-			font-weight: 500;
-			font-size: 24px;
-			color: #252222;
-			@media (max-width: 767px) {
-				font-size: 16px;
-			}
-		}
-	}
-	.desc {
-		margin-top: 16px;
-		color: #4F4F4F;
-		ul {
-			padding-left: 25px;
-		}
-	}
-}
+
 
 .box-course {
-	background: #FFF8F8;
+	background: $blue;
 	padding: 156px 0;
 	@media (max-width: 1400px) {
 		padding: 100px 0;
@@ -248,11 +176,18 @@
 	}
 	.title {
 		margin-bottom: 56px;
+
 		@media (max-width: 1023px) {
 			margin-bottom: 40px;
 		}
 		@media (max-width: 767px) {
 			margin-bottom: 16px;
+		}
+		h2 {
+			color: #fff;
+			span {
+				color: #fff;
+			}
 		}
 	}
 	.btn-main {
@@ -261,76 +196,6 @@
 		}
 		@media (max-width: 767px) {
 			padding-top: 32px;
-		}
-	}
-}
-
-.top-tab-course {
-	margin-bottom: 64px;
-	@media (max-width: 1023px) {
-		overflow: auto;
-	}
-	@media (max-width: 767px) {
-		margin-bottom: 32px;
-	}
-	ul {
-		list-style: none;
-	    display: flex;
-	    justify-content: center;
-	    align-items: center;
-	    @media (max-width: 1023px) {
-	    	width: max-content;
-	    }
-	}
-	a {
-		border-bottom: 1px solid #E5E5E5;
-		font-size: 24px;
-		display: inline-flex;
-		padding: 16px 24px;
-		position: relative;
-		@media (max-width: 767px) {
-			font-size: 18px;
-		}
-		&:after {
-			content: "";
-		    width: 100%;
-		    height: 3px;
-		    background: $blue;
-		    position: absolute;
-		    bottom: 0;
-		    left: 0;
-		    opacity: 0;
-		    transition: .3s all !important;
-		}
-		&.active, &:hover  {
-			font-weight: 600;
-			color: #252222;
-			&:after {
-				opacity: 1;
-			}
-		}
-	}
-}
-.content-course-tab {
-	position: relative;
-	margin-bottom: 50px;
-	padding-bottom: 50px;
-	@media (max-width: 767px) {
-		margin-bottom: 0;
-    	padding-bottom: 74px;
-	}
-	.tab-content {
-		position: absolute;
-		width: 100%;
-		top: 0;
-		left: 0;
-		pointer-events: none;
-		opacity: 0;
-		transition: .3s all !important;
-		&.active {
-			pointer-events: unset;
-			opacity: 1;
-			position: relative;
 		}
 	}
 }
@@ -465,7 +330,7 @@
 }
 
 .box-form {
-	padding: 164px 0;
+	padding: 156px 0;
 	@media (max-width: 1400px) {
 		padding: 100px 0;
 	}
@@ -894,7 +759,7 @@
 .box-number {
 	color: #fff;
 	padding: 72px 0;
-	background: #E71E25;
+	background: $blue;
 	overflow: hidden;
 	@media (max-width: 1023px) {
 		padding: 64px 0;
@@ -930,12 +795,10 @@
 		font-size: 16px;
 	}
 	.numb {
-		padding: 10px 0;
-		color: #FFFFFF;
-	    text-shadow: 2px 2px 0 #000, 5px 5px 0 #000, 2px -1px 0px #000, -1px 1px 0 #000, 1px 1px 0 #000;
+		padding: 0 0 10px 0;
+		color: #FFC624;
 	    font-size: 72px;
 	    font-weight: 700;
-	    font-family: 'Montserrat';
 	    line-height: 1.2;
 	    @media (max-width: 767px) {
 	    	font-size: 48px;
