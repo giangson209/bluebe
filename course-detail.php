@@ -9,7 +9,7 @@
 				</ul>
 				<h1>Khóa Kiddie A</h1>
 				<p>Khóa học cho trẻ từ 4-5 tuổi</p>
-				<div class="date"><span>Last Update : </span>28 tháng 10, 2022</div>
+				<div class="date"><span>Cập nhật gần nhất : </span>28 tháng 10, 2022</div>
 			</div>
 		</div>
 	</section>
@@ -17,13 +17,6 @@
 		<div class="container">
 			<div class="detail-content-course">
 				<div class="left">
-					<div class="tab-detail-course">
-						<ul>
-							<li><a href="javascript:void(0)" data-tab="tab-1" class="active">Tổng quan</a></li>
-							<li><a href="javascript:void(0)" data-tab="tab-2">Chương trình giảng dạy</a></li>
-							<li><a href="javascript:void(0)" data-tab="tab-3">Ưu điểm</a></li>
-						</ul>
-					</div>
 					<div class="content-detail-cour">
 						<div class="tab-course active" id="tab-1">
 							<div class="detail">
@@ -32,35 +25,51 @@
 								<p>Liên hệ với số hotline: 096.3072.486 (Mr Hà) hoặc bạn vui lòng ĐỂ LẠI THÔNG TIN để nhận được những tư vấn miễn phí cụ thể nhất!</p>
 								<h3>Khóa học dành cho ai</h3>
 								<p>Khóa học dành cho trẻ mầm non trong độ tuổi 4 - 5 tuổi.</p>
-								<h3>Địa chỉ</h3>
-								<p>Số 17, Tô Hiến Thành, Đình Bảng, Từ Sơn, Bắc Ninh (cạnh Công viên Đình Bảng)</p>
+								<h3>Thông tin khóa học</h3>
+								<ul>
+                                    <li>Thời gian: 12 tháng</li>
+                                    <li>Thời lượng: 2 buổi/tuần</li>
+                                    <li>Học phí:</li>
+                                </ul>
+
+                                <div class="noidung-khoahoc">
+                                    <div class="t-noidung">Nội dung khóa học:</div>
+                                    <ul>
+                                        <li>
+                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M12 22C17.5 22 22 17.5 22 12C22 6.5 17.5 2 12 2C6.5 2 2 6.5 2 12C2 17.5 6.5 22 12 22Z" fill="#1A61CC"/>
+                                                <path d="M7.75 11.9999L10.58 14.8299L16.25 9.16992" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                            </svg>
+                                            <span>Nhận biết từ vựng, đánh vần và làm quen với từ</span>
+                                        </li>
+                                        <li>
+                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M12 22C17.5 22 22 17.5 22 12C22 6.5 17.5 2 12 2C6.5 2 2 6.5 2 12C2 17.5 6.5 22 12 22Z" fill="#1A61CC"/>
+                                                <path d="M7.75 11.9999L10.58 14.8299L16.25 9.16992" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                            </svg>
+                                            <span>Nhận diện toàn bộ bảng chữ cái</span>
+                                        </li>
+                                    </ul>
+                                    <div class="t-noidung">Đầu ra:</div>
+                                    <ul>
+                                        <li>
+                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M12 22C17.5 22 22 17.5 22 12C22 6.5 17.5 2 12 2C6.5 2 2 6.5 2 12C2 17.5 6.5 22 12 22Z" fill="#1A61CC"/>
+                                                <path d="M7.75 11.9999L10.58 14.8299L16.25 9.16992" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                            </svg>
+                                            <span>Nhận biết từ vựng, đánh vần và làm quen với từ</span>
+                                        </li>
+                                        <li>
+                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M12 22C17.5 22 22 17.5 22 12C22 6.5 17.5 2 12 2C6.5 2 2 6.5 2 12C2 17.5 6.5 22 12 22Z" fill="#1A61CC"/>
+                                                <path d="M7.75 11.9999L10.58 14.8299L16.25 9.16992" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                            </svg>
+                                            <span>Nhận diện toàn bộ bảng chữ cái</span>
+                                        </li>
+                                    </ul>
+                                </div>
 							</div>
 						</div>
-						<div class="tab-course" id="tab-2">
-							<div class="detail">
-								<h3>Thông tin khóa học:</h3>
-								<ul>
-									<li>Thời gian: 12 tháng</li>
-									<li>Thời lượng: 2 buổi/tuần</li>
-								</ul>
-								<div class="noidung">
-									<h3 class="pt-0">Nội dung khóa học:</h3>
-									<p><img src="images/nd-tick.png" class="img-fluid" alt="">KIDDIE A giúp trẻ rèn luyện phản xạ Tiếng Anh.</p>
-									<p><img src="images/nd-tick.png" class="img-fluid" alt="">Trẻ sẽ được làm quen với ngôn ngữ, bảng chữ cái, chữ số và các từ đơn.</p>
-									<p><img src="images/nd-tick.png" class="img-fluid" alt="">Trau dồi từ vựng theo chủ đề gần gũi với cuộc sống.</p>
-								</div>
-							</div>
-						</div> 
-						<div class="tab-course" id="tab-3">
-							<div class="detail">
-								<div class="noidung">
-									<h3 class="pt-0">Ưu điểm khi cho trẻ theo học khóa KIDDIE tại <br><span style="color: #E71E25">HA CENTRE Junior</span></h3>
-									<p><img src="images/nd-tick.png" class="img-fluid" alt="">Các con được tiếp thu kiến thức một cách tự nhiên, với tiêu chí “học mà chơi, chơi mà học”. HA CENTRE Junior trang bị công cụ học tập thông minh giúp các con thuận tiện học tập như: thẻ tranh từ, TV, loa đài, bài hát, trò chơi,... giúp bé học tập, làm quen với tiếng Anh một cách tự nhiên, thoải mái, yêu thích tiếng Anh và đầy cảm hứng học tập.</p>
-									<p><img src="images/nd-tick.png" class="img-fluid" alt="">100% các con được học với giáo viên bản xứ, giúp các con học ngôn ngữ một cách tự nhiên, chuẩn chỉnh trong phát âm và trong giao tiếp.</p>
-									<p><img src="images/nd-tick.png" class="img-fluid" alt="">Học phí vô cùng ưu đãi khi đăng ký ngay trong tháng này</p>
-								</div>
-							</div>
-						</div> 
 					</div>
 					<div class="form-course">
 						<div class="icon-abs"><img src="images/cmt.png" class="img-fluid" alt=""></div>

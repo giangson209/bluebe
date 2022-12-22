@@ -59,7 +59,7 @@
                             </div>
 						</div>
 						<div class="scroll-ev course-box" id="scroll-2">
-							<div class="title-course">Khóa Tiếng Anh Mầm non</div>
+							<div class="title-course">Khóa Tiếng Anh Tiểu học</div>
 							<div class="list-course">
                                 <div class="item-course">
                                     <div class="avarta"><a href=""><img src="images/course-1.png" class="img-fluid w-100" alt=""></a><span>Tiếng Anh Mầm non</span></div>
@@ -92,7 +92,7 @@
                             </div>
 						</div>
 						<div class="scroll-ev course-box" id="scroll-3">
-							<div class="title-course">Khóa Tiếng Anh Mầm non</div>
+							<div class="title-course">Khóa Tiếng Anh THCS</div>
 							<div class="list-course">
                                 <div class="item-course">
                                     <div class="avarta"><a href=""><img src="images/course-1.png" class="img-fluid w-100" alt=""></a><span>Tiếng Anh Mầm non</span></div>

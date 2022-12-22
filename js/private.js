@@ -257,11 +257,31 @@ $(document).ready(function(){
 		$("#"+tab_id).addClass('active');
 	})
 
+	$('.clc-tab').click(function(){
+		var tab_id = $(this).attr('data-tab');
+
+		$('.clc-tab').removeClass('active');
+		$('.content-tab-hv').removeClass('active');
+
+		$(this).addClass('active');
+		$("#"+tab_id).addClass('active');
+	})
+
 	$('.tab-about a').click(function(){
 		var tab_id = $(this).attr('data-tab');
 
 		$('.tab-about a').removeClass('active'); 
 		$('.content-about').removeClass('active');
+
+		$(this).addClass('active');
+		$("#"+tab_id).addClass('active');
+	})
+
+	$('.clc-thanhtich').click(function(){
+		var tab_id = $(this).attr('data-tab');
+
+		$('.clc-thanhtich').removeClass('active');
+		$('.content-achiev').removeClass('active');
 
 		$(this).addClass('active');
 		$("#"+tab_id).addClass('active');
