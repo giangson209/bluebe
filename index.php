@@ -13,6 +13,7 @@
 			</div>
 		</div> 
 	</section>
+
     <section class="box-slogan">
         <div class="container">
             <div class="content-slogan">
@@ -24,6 +25,7 @@
             </div>
         </div>
     </section>
+
 	<section class="box-route">
         <div class="container">
             <div class="title text-center">
@@ -62,6 +64,7 @@
             </div>
         </div>
     </section>
+
 	<section class="box-course">
 		<div class="container">
 			<div class="title text-center">
@@ -134,8 +137,12 @@
                     </div>
                 </div>
             </div>
+            <div class="btn-main text-center">
+                <a href=""><span>Xem tất cả</span><img src="images/arrow-right.svg" class="img-fluid" alt=""></a>
+            </div>
 		</div>
 	</section>
+
 	<section class="box-form">
 		<div class="container">
 			<div class="row">
@@ -181,6 +188,7 @@
 			</div>
 		</div>
 	</section>
+
     <section class="box-number">
         <div class="container">
             <div class="list-number">
@@ -220,11 +228,84 @@
                     <div class="col-md-4">
                         <div class="video-small">
                             <div class="item-video-small">
-                                <div class="avarta"><img src="images/video-small.png" class="img-fluid w-100" alt=""></div>
+                                <div class="avarta">
+                                    <div class="avr"><img src="images/video-small.png" class="img-fluid w-100" alt=""></div>
+                                    <div class="icon-play"></div>
+                                </div>
+                                <div class="info">
+                                    <h3><a href="">5 tips nâng band writing task 1 IELTS - HA Centre</a></h3>
+                                </div>
+                            </div>
+                            <div class="item-video-small">
+                                <div class="avarta">
+                                    <div class="avr"><img src="images/video-small.png" class="img-fluid w-100" alt=""></div>
+                                    <div class="icon-play"></div>
+                                </div>
+                                <div class="info">
+                                    <h3><a href="">5 tips nâng band writing task 1 IELTS - HA Centre</a></h3>
+                                </div>
+                            </div>
+                            <div class="item-video-small">
+                                <div class="avarta">
+                                    <div class="avr"><img src="images/video-small.png" class="img-fluid w-100" alt=""></div>
+                                    <div class="icon-play"></div>
+                                </div>
+                                <div class="info">
+                                    <h3><a href="">5 tips nâng band writing task 1 IELTS - HA Centre</a></h3>
+                                </div>
+                            </div>
+                            <div class="item-video-small">
+                                <div class="avarta">
+                                    <div class="avr"><img src="images/video-small.png" class="img-fluid w-100" alt=""></div>
+                                    <div class="icon-play"></div>
+                                </div>
+                                <div class="info">
+                                    <h3><a href="">5 tips nâng band writing task 1 IELTS - HA Centre</a></h3>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
+            </div>
+            <div class="btn-main text-center">
+                <a href=""><span>Xem tất cả</span><img src="images/arrow-right.svg" class="img-fluid" alt=""></a>
+            </div>
+        </div>
+    </section>
+
+    <section class="box-memmber">
+        <div class="container">
+            <div class="title text-center">
+                <h2>Đội ngũ <label>giáo viên</label> <br><span>kinh nghiệm, tận tâm</span></h2>
+            </div>
+            <div class="slide-member">
+                <div class="item-slide">
+                    <div class="item-member">
+                        <div class="avarta"><a href="javascript:void(0)"><img src="images/mem-1.png" class="img-fluid w-100" alt=""></a></div>
+                        <div class="info">Mr. Manh Ha</div>
+                    </div>
+                </div>
+                <div class="item-slide">
+                    <div class="item-member">
+                        <div class="avarta"><a href="javascript:void(0)"><img src="images/mem-2.png" class="img-fluid w-100" alt=""></a></div>
+                        <div class="info">Mr. Manh Ha</div>
+                    </div>
+                </div>
+                <div class="item-slide">
+                    <div class="item-member">
+                        <div class="avarta"><a href="javascript:void(0)"><img src="images/mem-1.png" class="img-fluid w-100" alt=""></a></div>
+                        <div class="info">Mr. Manh Ha</div>
+                    </div>
+                </div>
+                <div class="item-slide">
+                    <div class="item-member">
+                        <div class="avarta"><a href="javascript:void(0)"><img src="images/mem-2.png" class="img-fluid w-100" alt=""></a></div>
+                        <div class="info">Mr. Manh Ha</div>
+                    </div>
+                </div>
+            </div>
+            <div class="btn-main text-center">
+                <a href=""><span>Xem tất cả</span><img src="images/arrow-right.svg" class="img-fluid" alt=""></a>
             </div>
         </div>
     </section>
@@ -240,7 +321,7 @@
 						<li><a href="" data-tab="tt-1" class="active">Học viên xuất sắc</a></li>
 						<li><a href="" data-tab="tt-2">Giải thưởng</a></li>
 					</ul>
-				</div> 
+				</div>
 				<div class="content-achiev">
 					<div class="tab-content-chiev">
 						<div class="abs-bv"><img src="images/abs-thanhtich.png" class="img-fluid" alt=""></div>
@@ -526,82 +607,18 @@
 		  	</div>
 		</div>
 	</section>
-	<section class="box-memmber">
-		<div class="container">
-			<div class="avs-icon"><img src="images/abs-member.png" class="img-fluid" alt=""></div>
-			<div class="title text-center">
-				<h2>Đội ngũ <label>giáo viên</label> <br><span>kinh nghiệm, tận tâm</span></h2>
-			</div>
-			<div class="slide-member">
-				<div class="item-slide">
-					<div class="item-member">
-						<div class="avarta"><a href="javascript:void(0)"><img src="images/mem-1.png" class="img-fluid w-100" alt=""></a></div>
-						<div class="info">Mr. Manh Ha</div>
-					</div>
-				</div> 
-				<div class="item-slide">
-					<div class="item-member">
-						<div class="avarta"><a href="javascript:void(0)"><img src="images/mem-2.png" class="img-fluid w-100" alt=""></a></div>
-						<div class="info">Mr. Manh Ha</div>
-					</div>
-				</div> 
-				<div class="item-slide">
-					<div class="item-member">
-						<div class="avarta"><a href="javascript:void(0)"><img src="images/mem-1.png" class="img-fluid w-100" alt=""></a></div>
-						<div class="info">Mr. Manh Ha</div>
-					</div>
-				</div> 
-				<div class="item-slide">
-					<div class="item-member">
-						<div class="avarta"><a href="javascript:void(0)"><img src="images/mem-2.png" class="img-fluid w-100" alt=""></a></div>
-						<div class="info">Mr. Manh Ha</div>
-					</div>
-				</div> 
-			</div>
-			<div class="btn-main text-center">
-				<a href=""><span>Xem tất cả</span><img src="images/arrow-right.svg" class="img-fluid" alt=""></a>
-			</div>
-		</div>
-	</section>
-	<section class="box-number">
-		<div class="container">
-			<div class="list-number">
-				<div class="row">
-					<div class="col-lg-4">
-						<div class="item-numb text-center" id="counter-box">
-							<div class="icon"><img src="images/star.png" class="img-fluid" alt=""></div>
-							<div class="numb"><span class="counter" data-number="547"></span><span>+</span></div>
-							<p>Học viên đang theo học và đã tốt nghiệp</p>
-						</div>
-					</div>
-					<div class="col-lg-4">
-						<div class="item-numb text-center" id="counter-box">
-							<div class="icon"><img src="images/star.png" class="img-fluid" alt=""></div>
-							<div class="numb"><span class="counter" data-number="10"></span><span>+</span></div>
-							<p>Khóa học được đầu tư bài bản, kỹ lưỡng</p>
-						</div>
-					</div>
-					<div class="col-lg-4">
-						<div class="item-numb text-center" id="counter-box">
-							<div class="icon"><img src="images/star.png" class="img-fluid" alt=""></div>
-							<div class="numb"><span class="counter" data-number="30"></span><span>+</span></div>
-							<p>Giảng viên tâm huyết và giàu kinh nghiệm trong nghề</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
+
 	<section class="box-book">
 		<div class="container">
 			<div class="title text-center">
-				<h2>Thư viện <label> đa dạng</label>, phong phú</h2>
+				<h2>Tài <label>liệu phong</label> phú</h2>
 			</div>
 			<div class="tab-achiev">
 				<div class="top">
 					<ul>
-						<li><a href="javascript:void(0)" data-tab="book-1" class="active">Tủ sách cho trẻ</a></li>
-						<li><a href="javascript:void(0)" data-tab="book-2">Bí quyết học tập</a></li>
+						<li><a href="javascript:void(0)" data-tab="book-1" class="clc-tab active">Tài liệu IELTS</a></li>
+						<li><a href="javascript:void(0)" data-tab="book-2" class="clc-tab">Thư viện Sách</a></li>
+                        <li><a href="javascript:void(0)" data-tab="book-3" class="clc-tab">Kỹ năng cho trẻ</a></li>
 					</ul>
 				</div>
 			</div>
@@ -686,105 +703,116 @@
 						</div>
 					</div>
 				</div>
+				<div class="tab-book" id="book-3">
+					<div class="slide-book">
+						<div class="item-slide">
+							<div class="item-book">
+								<div class="avarta"><a href="tusach-detail.php"><img src="images/book-2.png" class="img-fluid w-100" alt=""></a></div>
+								<div class="info">
+									<h3><a href="tusach-detail.php">File PDF Sách “Học nhanh Ngữ pháp tiếng Anh từ A-Z 1”</a></h3>
+									<p><span>Tủ sách cho trẻ</span><label>3 giờ trước</label></p>
+								</div>
+							</div>
+						</div>
+						<div class="item-slide">
+							<div class="item-book">
+								<div class="avarta"><a href="tusach-detail.php"><img src="images/book-3.png" class="img-fluid w-100" alt=""></a></div>
+								<div class="info">
+									<h3><a href="tusach-detail.php">File PDF Sách “Học nhanh Ngữ pháp tiếng Anh từ A-Z”</a></h3>
+									<p><span>Tủ sách cho trẻ</span><label>3 giờ trước</label></p>
+								</div>
+							</div>
+						</div>
+						<div class="item-slide">
+							<div class="item-book">
+								<div class="avarta"><a href="tusach-detail.php"><img src="images/book-1.png" class="img-fluid w-100" alt=""></a></div>
+								<div class="info">
+									<h3><a href="tusach-detail.php">File PDF Sách “Học nhanh Ngữ pháp tiếng Anh từ A-Z”</a></h3>
+									<p><span>Tủ sách cho trẻ</span><label>3 giờ trước</label></p>
+								</div>
+							</div>
+						</div>
+						<div class="item-slide">
+							<div class="item-book">
+								<div class="avarta"><a href="tusach-detail.php"><img src="images/book-2.png" class="img-fluid w-100" alt=""></a></div>
+								<div class="info">
+									<h3><a href="tusach-detail.php">File PDF Sách “Học nhanh Ngữ pháp tiếng Anh từ A-Z”</a></h3>
+									<p><span>Tủ sách cho trẻ</span><label>3 giờ trước</label></p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 			<div class="btn-main text-center"><a href="tusach.php"><span>Xem tất cả</span><img src="images/arrow-right.svg" class="img-fluid" alt=""></a></div>
 		</div>
 	</section>
+
 	<section class="box-feedback">
-		<div class="container">
-			<div class="slide-feedback">
-				<div class="item-slide">
-					<div class="item-feedback">
-						<div class="avarta"><img src="images/avr-fb.png" class="img-fluid w-100" alt=""></div>
-						<div class="info">
-							<div class="icon"><img src="images/kep.png" class="img-fluid" alt=""></div>
-							<div class="desc">
-								Em rất sợ tiếng anh, nhưng vì những mục tiêu tương lai, em phải chinh phục được ngôn ngữ này. Và Bluebell là trung tâm em lựa chọn đồng hành trong hành trình gian nan này. Ban đầu em cũng lo lắng, nhưng mọi thứ diễn ra đã thay đổi suy nghĩ của em. Các thầy cô ở đây cực xịn, từ một đứa tiếng anh em dần hứng thú học tiếng Anh. Em luôn ước có thể biết đến Bluebell sớm hớn. 
-							</div>
-							<div class="info">
-								<h5>Ông Trương Quốc Thái</h5>
-								<p>Phụ huynh bạn Lê Mai Anh - Khóa Kiddie A</p>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="item-slide">
-					<div class="item-feedback">
-						<div class="avarta"><img src="images/avr-fb.png" class="img-fluid w-100" alt=""></div>
-						<div class="info">
-							<div class="icon"><img src="images/kep.png" class="img-fluid" alt=""></div>
-							<div class="desc">
-								Em rất sợ tiếng anh, nhưng vì những mục tiêu tương lai, em phải chinh phục được ngôn ngữ này. Và Bluebell là trung tâm em lựa chọn đồng hành trong hành trình gian nan này. Ban đầu em cũng lo lắng, nhưng mọi thứ diễn ra đã thay đổi suy nghĩ của em. Các thầy cô ở đây cực xịn, từ một đứa tiếng anh em dần hứng thú học tiếng Anh. Em luôn ước có thể biết đến Bluebell sớm hớn. 
-							</div>
-							<div class="info">
-								<h5>Ông Trương Quốc Thái</h5>
-								<p>Phụ huynh bạn Lê Mai Anh - Khóa Kiddie A</p>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="item-slide">
-					<div class="item-feedback">
-						<div class="avarta"><img src="images/avr-fb.png" class="img-fluid w-100" alt=""></div>
-						<div class="info">
-							<div class="icon"><img src="images/kep.png" class="img-fluid" alt=""></div>
-							<div class="desc">
-								Em rất sợ tiếng anh, nhưng vì những mục tiêu tương lai, em phải chinh phục được ngôn ngữ này. Và Bluebell là trung tâm em lựa chọn đồng hành trong hành trình gian nan này. Ban đầu em cũng lo lắng, nhưng mọi thứ diễn ra đã thay đổi suy nghĩ của em. Các thầy cô ở đây cực xịn, từ một đứa tiếng anh em dần hứng thú học tiếng Anh. Em luôn ước có thể biết đến Bluebell sớm hớn. 
-							</div>
-							<div class="info">
-								<h5>Ông Trương Quốc Thái</h5>
-								<p>Phụ huynh bạn Lê Mai Anh - Khóa Kiddie A</p>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="item-slide">
-					<div class="item-feedback">
-						<div class="avarta"><img src="images/avr-fb.png" class="img-fluid w-100" alt=""></div>
-						<div class="info">
-							<div class="icon"><img src="images/kep.png" class="img-fluid" alt=""></div>
-							<div class="desc">
-								Em rất sợ tiếng anh, nhưng vì những mục tiêu tương lai, em phải chinh phục được ngôn ngữ này. Và Bluebell là trung tâm em lựa chọn đồng hành trong hành trình gian nan này. Ban đầu em cũng lo lắng, nhưng mọi thứ diễn ra đã thay đổi suy nghĩ của em. Các thầy cô ở đây cực xịn, từ một đứa tiếng anh em dần hứng thú học tiếng Anh. Em luôn ước có thể biết đến Bluebell sớm hớn. 
-							</div>
-							<div class="info">
-								<h5>Ông Trương Quốc Thái</h5>
-								<p>Phụ huynh bạn Lê Mai Anh - Khóa Kiddie A</p>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="item-slide">
-					<div class="item-feedback">
-						<div class="avarta"><img src="images/avr-fb.png" class="img-fluid w-100" alt=""></div>
-						<div class="info">
-							<div class="icon"><img src="images/kep.png" class="img-fluid" alt=""></div>
-							<div class="desc">
-								Em rất sợ tiếng anh, nhưng vì những mục tiêu tương lai, em phải chinh phục được ngôn ngữ này. Và Bluebell là trung tâm em lựa chọn đồng hành trong hành trình gian nan này. Ban đầu em cũng lo lắng, nhưng mọi thứ diễn ra đã thay đổi suy nghĩ của em. Các thầy cô ở đây cực xịn, từ một đứa tiếng anh em dần hứng thú học tiếng Anh. Em luôn ước có thể biết đến Bluebell sớm hớn. 
-							</div>
-							<div class="info">
-								<h5>Ông Trương Quốc Thái</h5>
-								<p>Phụ huynh bạn Lê Mai Anh - Khóa Kiddie A</p>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="item-slide">
-					<div class="item-feedback">
-						<div class="avarta"><img src="images/avr-fb.png" class="img-fluid w-100" alt=""></div>
-						<div class="info">
-							<div class="icon"><img src="images/kep.png" class="img-fluid" alt=""></div>
-							<div class="desc">
-								Em rất sợ tiếng anh, nhưng vì những mục tiêu tương lai, em phải chinh phục được ngôn ngữ này. Và Bluebell là trung tâm em lựa chọn đồng hành trong hành trình gian nan này. Ban đầu em cũng lo lắng, nhưng mọi thứ diễn ra đã thay đổi suy nghĩ của em. Các thầy cô ở đây cực xịn, từ một đứa tiếng anh em dần hứng thú học tiếng Anh. Em luôn ước có thể biết đến Bluebell sớm hớn. 
-							</div>
-							<div class="info">
-								<h5>Ông Trương Quốc Thái</h5>
-								<p>Phụ huynh bạn Lê Mai Anh - Khóa Kiddie A</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
+		<div class="container-fluid">
+            <div class="slide-feedback">
+                <div class="item-slide">
+                    <div class="item-feedback">
+                        <div class="icon-kep"><img src="images/icon-kep.png" class="img-fluid" alt=""></div>
+                        <div class="desc">
+                            Là học sinh lớp 12, em muốn học IELTS để bản thân có cơ hội trúng tuyển vào trường đại học mình thích. Nhưng hiện nay có nhiều trung tâm làm em rất hoang mang. May mắn em biết được Bluebell qua bạn. Thầy cô nhiệt tình, tận tâm giảng dạy cho em, cơ sở vật chất khang trang,... Em lựa chọn học ở Bluebell là một quyết định đúng đắn.
+                        </div>
+                        <div class="name-fb">
+                            <div class="av"><img src="images/av-fb.png" class="img-fluid w-100" alt=""></div>
+                            <div class="ìno">
+                                <h4>Vũ Thủy Tiên</h4>
+                                <p>Học viên khóa Pre IELTS</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item-slide">
+                    <div class="item-feedback">
+                        <div class="icon-kep"><img src="images/icon-kep.png" class="img-fluid" alt=""></div>
+                        <div class="desc">
+                            Là học sinh lớp 12, em muốn học IELTS để bản thân có cơ hội trúng tuyển vào trường đại học mình thích. Nhưng hiện nay có nhiều trung tâm làm em rất hoang mang. May mắn em biết được Bluebell qua bạn. Thầy cô nhiệt tình, tận tâm giảng dạy cho em, cơ sở vật chất khang trang,... Em lựa chọn học ở Bluebell là một quyết định đúng đắn.
+                        </div>
+                        <div class="name-fb">
+                            <div class="av"><img src="images/av-fb.png" class="img-fluid w-100" alt=""></div>
+                            <div class="ìno">
+                                <h4>Vũ Thủy Tiên</h4>
+                                <p>Học viên khóa Pre IELTS</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item-slide">
+                    <div class="item-feedback">
+                        <div class="icon-kep"><img src="images/icon-kep.png" class="img-fluid" alt=""></div>
+                        <div class="desc">
+                            Là học sinh lớp 12, em muốn học IELTS để bản thân có cơ hội trúng tuyển vào trường đại học mình thích. Nhưng hiện nay có nhiều trung tâm làm em rất hoang mang. May mắn em biết được Bluebell qua bạn. Thầy cô nhiệt tình, tận tâm giảng dạy cho em, cơ sở vật chất khang trang,... Em lựa chọn học ở Bluebell là một quyết định đúng đắn.
+                        </div>
+                        <div class="name-fb">
+                            <div class="av"><img src="images/av-fb.png" class="img-fluid w-100" alt=""></div>
+                            <div class="ìno">
+                                <h4>Vũ Thủy Tiên</h4>
+                                <p>Học viên khóa Pre IELTS</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item-slide">
+                    <div class="item-feedback">
+                        <div class="icon-kep"><img src="images/icon-kep.png" class="img-fluid" alt=""></div>
+                        <div class="desc">
+                            Là học sinh lớp 12, em muốn học IELTS để bản thân có cơ hội trúng tuyển vào trường đại học mình thích. Nhưng hiện nay có nhiều trung tâm làm em rất hoang mang. May mắn em biết được Bluebell qua bạn. Thầy cô nhiệt tình, tận tâm giảng dạy cho em, cơ sở vật chất khang trang,... Em lựa chọn học ở Bluebell là một quyết định đúng đắn.
+                        </div>
+                        <div class="name-fb">
+                            <div class="av"><img src="images/av-fb.png" class="img-fluid w-100" alt=""></div>
+                            <div class="ìno">
+                                <h4>Vũ Thủy Tiên</h4>
+                                <p>Học viên khóa Pre IELTS</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 	</section>
 	<section class="box-gallery">
 		<div class="slide-gallery-images">
@@ -861,11 +889,11 @@
 	<section class="box-contact-home">
 		<div class="container">
 			<div class="content-contact-home text-center">
-				<h3>Sẵn sàng đồng hành cùng HA Junior ?</h3>
-				<p>Hãy bắt đầu ngay hôm nay</p>
-				<div class="btn-contact-home">
-					<a href=""><img src="images/btn-contact.png" class="img-fluid" alt=""></a>
-				</div>
+				<h3>Sẵn sàng đồng hành cùng <span>BlueBell</span></h3>
+				<p>Lộ trình học được chuẩn bị và sắp xếp phù hợp với nhu cầu, trình độ của các học viên</p>
+                <div class="btn-main text-center">
+                    <a href="news.php"><span>Liên hệ tư vấn</span><img src="images/arrow-right.svg" class="img-fluid" alt=""></a>
+                </div>
 			</div>
 		</div>
 	</section>

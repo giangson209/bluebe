@@ -184,9 +184,10 @@ $(document).ready(function(){
 	});
 
 	$('.slide-feedback').slick({
-		autoplay:true,
+		autoplay:false,
 		arrow:false,
-		slidesToShow: 1,
+		centerMode: true,
+		slidesToShow: 3,
 		slidesToScroll: 1,
 		dots: true,
 		nextArrow: '<a href="javascript:void(0)" class="slide-right"><img src="images/slide-right.png" class="img-fluid" alt=""></a>',
@@ -241,6 +242,16 @@ $(document).ready(function(){
 
 		$('.tab-detail-course a').removeClass('active'); 
 		$('.tab-course').removeClass('active');
+
+		$(this).addClass('active');
+		$("#"+tab_id).addClass('active');
+	})
+
+	$('.clc-tab').click(function(){
+		var tab_id = $(this).attr('data-tab');
+
+		$('.clc-tab').removeClass('active');
+		$('.tab-book').removeClass('active');
 
 		$(this).addClass('active');
 		$("#"+tab_id).addClass('active');

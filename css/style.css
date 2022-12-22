@@ -209,7 +209,7 @@ time, mark, audio, video {
 
 /*======================================== end config =================================*/
 footer {
-  background: #1B1B1B;
+  background: #070039;
   color: #fff;
 }
 footer a {
@@ -947,90 +947,38 @@ header .container {
 }
 
 .item-course {
-  position: relative;
+  display: flex;
+  margin-bottom: 48px;
   padding: 16px;
-  border: 2px solid #232323;
+  overflow: hidden;
   border-radius: 24px;
-  color: #4F4F4F;
-  font-size: 18px;
-  transition: 0.3s all !important;
-}
-@media (max-width: 1200px) {
-  .item-course {
-    font-size: 14px;
-  }
+  border: 1px solid transparent;
 }
 .item-course:hover {
-  box-shadow: 3px 6px 0px #232323;
+  background: #F3F5FC;
+  border: 1px solid #91A7F0;
 }
-.item-course:hover .info:after {
-  opacity: 1;
-}
-.item-course:hover .info a {
-  color: #0B4499;
-}
-.item-course:hover .avarta:after {
-  opacity: 1;
+.item-course:last-child {
+  margin-bottom: 0;
 }
 .item-course .avarta {
+  flex: 0 0 282px;
   position: relative;
-  margin-bottom: 24px;
+  margin-right: 24px;
+  height: fit-content;
   border-radius: 16px;
-  background: #FFEBD6;
   overflow: hidden;
-  position: relative;
-}
-.item-course .avarta:after {
-  content: "";
-  width: 100%;
-  height: 100%;
-  transition: 0.3s all !important;
-  background: rgba(68, 41, 41, 0.3);
-  position: absolute;
-  top: 0;
-  left: 0;
-  opacity: 0;
-  pointer-events: none;
 }
 .item-course .avarta span {
-  background: #5EAD78;
-  border-radius: 0px 16px 0px 0px;
   font-size: 14px;
-  display: inline-flex;
   font-weight: 600;
-  color: #fff;
-  padding: 6px 16px;
+  background-color: #42AF66;
   position: absolute;
   left: 0;
   bottom: 0;
-  z-index: 2;
-}
-.item-course .info {
-  position: relative;
-}
-.item-course .info:after {
-  content: "";
-  width: 52px;
-  height: 52px;
-  background: url("../images/btn-course.png") no-repeat;
-  background-size: contain;
-  position: absolute;
-  top: 0;
-  right: 0;
-  pointer-events: none;
-  transition: 0.3s all !important;
-  opacity: 0;
-}
-.item-course .info a {
-  display: block;
-  font-size: 24px;
-  font-weight: 600;
-  font-family: "Montserrat";
-}
-@media (max-width: 1200px) {
-  .item-course .info a {
-    font-size: 20px;
-  }
+  color: #fff;
+  padding: 6px 16px;
+  border-radius: 0px 16px 0px 0px;
 }
 
 .slide-course {
@@ -1489,7 +1437,6 @@ header .container {
 
 .box-memmber {
   padding: 156px 0;
-  background: #FFF8F8;
   overflow: hidden;
 }
 @media (max-width: 1400px) {
@@ -1559,16 +1506,13 @@ header .container {
 }
 .slide-member .item-member {
   position: relative;
-  border: 2px solid #252222;
   border-radius: 24px;
   overflow: hidden;
 }
 .slide-member .item-member .info {
   font-size: 24px;
-  font-family: "Montserrat";
   font-weight: 600;
   padding: 12px 24px;
-  border: 1px solid #252222;
   border-radius: 0px 48px 0px 0px;
   position: absolute;
   bottom: -1px;
@@ -1642,6 +1586,7 @@ header .container {
   padding: 156px 0;
   background: #FFF8F8;
   overflow: hidden;
+  background-color: #F3F5FC;
 }
 @media (max-width: 1400px) {
   .box-video {
@@ -1661,7 +1606,6 @@ header .container {
 
 .content-video {
   position: relative;
-  padding-top: 56.25%;
 }
 @media (max-width: 767px) {
   .content-video {
@@ -1682,27 +1626,29 @@ header .container {
     border-radius: 16px;
   }
 }
-.content-video .icon-abs {
-  position: absolute;
-  z-index: 3;
-  pointer-events: none;
+.content-video .video-big {
+  padding-top: 56.25%;
+  position: relative;
 }
-@media (max-width: 1023px) {
-  .content-video .icon-abs {
-    display: none;
-  }
+
+.video-small {
+  padding-left: 12px;
 }
-.content-video .icon-abs.abs-1 {
-  top: 15%;
-  left: -12%;
+.video-small .item-video-small {
+  margin-bottom: 26px;
+  display: flex;
 }
-.content-video .icon-abs.abs-2 {
-  left: 3%;
-  bottom: -7%;
+.video-small .item-video-small .avarta {
+  flex: 0 0 90px;
+  overflow: hidden;
+  border-radius: 8px;
+  margin-right: 24px;
+  position: relative;
 }
-.content-video .icon-abs.abs-3 {
-  top: 55%;
-  right: -20%;
+.video-small .item-video-small .info a {
+  display: block;
+  font-size: 18px;
+  font-weight: 700;
 }
 
 .box-book {
@@ -1834,7 +1780,7 @@ header .container {
 }
 
 .box-feedback {
-  padding: 156px 0 282px 0;
+  padding: 156px 0;
   background: url("../images/bn-feedback.jpg") no-repeat center;
   background-size: cover;
 }
@@ -1857,13 +1803,11 @@ header .container {
   }
 }
 
-@media (max-width: 767px) {
-  .slide-feedback {
-    margin: 0 -8px;
-  }
-  .slide-feedback .item-slide {
-    padding: 0 8px;
-  }
+.slide-feedback {
+  margin: 0 -16px;
+}
+.slide-feedback .item-slide {
+  padding: 0 16px;
 }
 
 .content-gall-book {
@@ -1885,8 +1829,8 @@ header .container {
 }
 
 .box-gallery {
-  padding: 0 0 268px 0;
-  background: #FFF8F8;
+  padding: 156px 0 268px 0;
+  background: #F3F5FC;
   overflow: hidden;
 }
 @media (max-width: 1023px) {
@@ -1931,88 +1875,31 @@ header .container {
 }
 
 .item-feedback {
-  display: flex;
-  align-items: center;
-}
-@media (max-width: 1023px) {
-  .item-feedback {
-    display: block;
-  }
-}
-@media (max-width: 767px) {
-  .item-feedback {
-    font-size: 14px;
-  }
-}
-.item-feedback .avarta {
-  flex: 0 0 456px;
-  margin-right: 115px;
-}
-@media (max-width: 1200px) {
-  .item-feedback .avarta {
-    margin-right: 48px;
-  }
-}
-@media (max-width: 1023px) {
-  .item-feedback .avarta {
-    margin: 0 0 48px 0;
-    text-align: center;
-  }
-  .item-feedback .avarta img {
-    max-width: 450px;
-    margin: 0 auto;
-  }
-}
-@media (max-width: 767px) {
-  .item-feedback .avarta {
-    margin-bottom: 16px;
-  }
-}
-@media (max-width: 1023px) {
-  .item-feedback .icon {
-    text-align: center;
-  }
-  .item-feedback .icon img {
-    display: inline;
-  }
-}
-@media (max-width: 767px) {
-  .item-feedback .icon img {
-    height: 16px;
-  }
+  background: #FFFFFF;
+  border-radius: 24px;
+  padding: 64px 32px;
 }
 .item-feedback .desc {
-  margin: 32px 0;
-  padding-left: 16px;
-  border-left: 1px solid #252222;
+  padding: 40px 0;
 }
-@media (max-width: 767px) {
-  .item-feedback .desc {
-    margin: 16px 0;
-  }
-}
-.item-feedback h5 {
-  font-size: 20px;
-  font-weight: 600;
-  font-family: "Montserrat";
-}
-@media (max-width: 1023px) {
-  .item-feedback h5 {
-    text-align: center;
-  }
-}
-@media (max-width: 767px) {
-  .item-feedback h5 {
-    font-size: 16px;
-  }
-}
-.item-feedback p {
+.item-feedback .name-fb {
+  display: flex;
+  align-items: center;
   font-size: 14px;
 }
-@media (max-width: 1023px) {
-  .item-feedback p {
-    text-align: center;
-  }
+.item-feedback .name-fb .av {
+  flex: 0 0 52px;
+  margin-right: 16px;
+}
+.item-feedback .name-fb .av img {
+  height: 52px;
+  object-fit: cover;
+  border-radius: 100%;
+}
+.item-feedback .name-fb h4 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 2px;
 }
 
 .slide-gallery-images {
@@ -2067,51 +1954,16 @@ header .container {
 }
 
 .box-contact-home {
-  padding: 0 0 156px 0;
-}
-@media (max-width: 1400px) {
-  .box-contact-home {
-    padding: 0 0 100px 0;
-  }
-}
-@media (max-width: 767px) {
-  .box-contact-home {
-    padding: 0 0 48px 0;
-  }
+  padding: 156px 0;
+  background: url("../images/bn-contact.png") no-repeat center;
+  background-size: cover !important;
 }
 .box-contact-home .content-contact-home {
   position: relative;
-  padding: 86px 156px;
-  background: url("../images/bn-contact.png") no-repeat center;
-  background-size: cover !important;
-  border-radius: 56px;
-  overflow: hidden;
-  color: #fff;
-  font-size: 24px;
-}
-@media (max-width: 1400px) {
-  .box-contact-home .content-contact-home {
-    padding: 86px 100px;
-  }
-}
-@media (max-width: 1023px) {
-  .box-contact-home .content-contact-home {
-    padding: 64px 56px;
-  }
-}
-@media (max-width: 767px) {
-  .box-contact-home .content-contact-home {
-    padding: 86px 32px;
-    font-size: 16px;
-    border-radius: 24px;
-    background: url("../images/bn-contact-mb.png") no-repeat center;
-  }
 }
 .box-contact-home .content-contact-home h3 {
-  font-family: "Montserrat";
   font-size: 40px;
   font-weight: 700;
-  margin-bottom: 24px;
 }
 @media (max-width: 767px) {
   .box-contact-home .content-contact-home h3 {
@@ -2119,7 +1971,7 @@ header .container {
   }
 }
 .box-contact-home .content-contact-home p {
-  margin-bottom: 40px;
+  padding: 24px 0;
 }
 .box-contact-home .btn-contact-home a:hover {
   transform: scale(1.04);
@@ -2911,11 +2763,10 @@ header .container {
 }
 .course-box .title-course {
   font-size: 32px;
-  font-weight: 600;
+  font-weight: 700;
   margin-bottom: 48px;
   position: relative;
   color: #222222;
-  font-family: "Montserrat";
 }
 @media (max-width: 767px) {
   .course-box .title-course {
@@ -4154,10 +4005,18 @@ header .container {
   width: 100%;
   height: 100%;
   background: #FFFFFF;
-  opacity: 0.95;
   position: absolute;
   top: 0;
   left: 0;
+  transition: 0.3s all !important;
+  opacity: 0;
+}
+.item-bn-kh:hover:after {
+  opacity: 0.95;
+}
+.item-bn-kh:hover .bot {
+  opacity: 1;
+  pointer-events: unset;
 }
 .item-bn-kh .info {
   position: relative;
@@ -4168,6 +4027,11 @@ header .container {
 }
 .item-bn-kh .item:last-child {
   margin-bottom: 0;
+}
+.item-bn-kh .bot {
+  transition: 0.3s all !important;
+  opacity: 0;
+  pointer-events: none;
 }
 .item-bn-kh .top h3 {
   position: relative;

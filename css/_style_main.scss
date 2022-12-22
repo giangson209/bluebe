@@ -602,10 +602,20 @@
         width: 100%;
         height: 100%;
         background: #FFFFFF;
-        opacity: 0.95;
         position: absolute;
         top: 0;
         left: 0;
+        transition: .3s all !important;
+        opacity: 0;
+    }
+    &:hover {
+        &:after {
+            opacity: 0.95;
+        }
+      .bot {
+          opacity: 1;
+          pointer-events: unset;
+      }
     }
     .info {
         position: relative;
@@ -616,6 +626,11 @@
         &:last-child {
             margin-bottom: 0;
         }
+    }
+    .bot {
+        transition: .3s all !important;
+        opacity: 0;
+        pointer-events: none;
     }
     .top {
         h3 {

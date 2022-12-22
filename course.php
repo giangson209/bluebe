@@ -27,104 +27,107 @@
 					<div class="content-cate-course">
 						<div class="scroll-ev course-box" id="scroll-1">
 							<div class="title-course">Khóa Tiếng Anh Mầm non</div>
-							<div class="row">
-								<div class="col-md-6">
-									<div class="item-course">
-										<div class="avarta"><a href="course-detail.php"><img src="images/course-3.png" class="img-fluid w-100" alt=""><span>Tiếng Anh Mầm non</span></a></div>
-										<div class="info">
-											<h3><a href="course-detail.php">Khóa Kiddie A</a></h3>
-											<p>Cho trẻ từ 4-5 tuổi</p>
-										</div>
-									</div>
-								</div>
-								<div class="col-md-6">
-									<div class="item-course">
-										<div class="avarta"><a href="course-detail.php"><img src="images/course-3.png" class="img-fluid w-100" alt=""><span>Tiếng Anh Mầm non</span></a></div>
-										<div class="info">
-											<h3><a href="course-detail.php">Khóa Kiddie A</a></h3>
-											<p>Cho trẻ từ 4-5 tuổi</p>
-										</div>
-									</div>
-								</div>
-								<div class="col-md-6">
-									<div class="item-course">
-										<div class="avarta"><a href="course-detail.php"><img src="images/course-3.png" class="img-fluid w-100" alt=""><span>Tiếng Anh Mầm non</span></a></div>
-										<div class="info">
-											<h3><a href="course-detail.php">Khóa Kiddie A</a></h3>
-											<p>Cho trẻ từ 4-5 tuổi</p>
-										</div>
-									</div>
-								</div>
-							</div> 
+							<div class="list-course">
+                                <div class="item-course">
+                                    <div class="avarta"><a href=""><img src="images/course-1.png" class="img-fluid w-100" alt=""></a><span>Tiếng Anh Mầm non</span></div>
+                                    <div class="info">
+                                        <p>Cho trẻ từ 4-5 tuổi</p>
+                                        <h3><a href="">Kiddie A</a></h3>
+                                        <div class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id enim, a, risus molestie arcu dignissim aenean. Morbi sollicitudin at eleifend quis a enim scelerisque. Arcu amet nisi et consequat commodo nulla. Sem fames blandit suspendisse at orci dolor nam.</div>
+                                        <div class="view-more"><a href="">
+                                                Chi tiết
+                                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M12.93 5.92993L19 11.9999L12.93 18.0699M4 11.9999H18.83" stroke="#1A61CC" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                                </svg>
+                                            </a></div>
+                                    </div>
+                                </div>
+                                <div class="item-course">
+                                    <div class="avarta"><a href=""><img src="images/course-1.png" class="img-fluid w-100" alt=""></a><span>Tiếng Anh Mầm non</span></div>
+                                    <div class="info">
+                                        <p>Cho trẻ từ 4-5 tuổi</p>
+                                        <h3><a href="">Kiddie A</a></h3>
+                                        <div class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id enim, a, risus molestie arcu dignissim aenean. Morbi sollicitudin at eleifend quis a enim scelerisque. Arcu amet nisi et consequat commodo nulla. Sem fames blandit suspendisse at orci dolor nam.</div>
+                                        <div class="view-more"><a href="">
+                                                Chi tiết
+                                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M12.93 5.92993L19 11.9999L12.93 18.0699M4 11.9999H18.83" stroke="#1A61CC" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                                </svg>
+                                            </a></div>
+                                    </div>
+                                </div>
+                            </div>
 						</div>
 						<div class="scroll-ev course-box" id="scroll-2">
-							<div class="title-course">Khóa Tiếng Anh Tiểu học</div>
-							<div class="row">
-								<div class="col-md-6">
-									<div class="item-course">
-										<div class="avarta"><a href="course-detail.php"><img src="images/course-3.png" class="img-fluid w-100" alt=""><span>Tiếng Anh Mầm non</span></a></div>
-										<div class="info">
-											<h3><a href="course-detail.php">Khóa Kiddie A</a></h3>
-											<p>Cho trẻ từ 4-5 tuổi</p>
-										</div>
-									</div>
-								</div>
-								<div class="col-md-6">
-									<div class="item-course">
-										<div class="avarta"><a href="course-detail.php"><img src="images/course-3.png" class="img-fluid w-100" alt=""><span>Tiếng Anh Mầm non</span></a></div>
-										<div class="info">
-											<h3><a href="course-detail.php">Khóa Kiddie A</a></h3>
-											<p>Cho trẻ từ 4-5 tuổi</p>
-										</div>
-									</div>
-								</div>
-								<div class="col-md-6">
-									<div class="item-course">
-										<div class="avarta"><a href="course-detail.php"><img src="images/course-3.png" class="img-fluid w-100" alt=""><span>Tiếng Anh Mầm non</span></a></div>
-										<div class="info">
-											<h3><a href="course-detail.php">Khóa Kiddie A</a></h3>
-											<p>Cho trẻ từ 4-5 tuổi</p>
-										</div>
-									</div>
-								</div>
-							</div>
+							<div class="title-course">Khóa Tiếng Anh Mầm non</div>
+							<div class="list-course">
+                                <div class="item-course">
+                                    <div class="avarta"><a href=""><img src="images/course-1.png" class="img-fluid w-100" alt=""></a><span>Tiếng Anh Mầm non</span></div>
+                                    <div class="info">
+                                        <p>Cho trẻ từ 4-5 tuổi</p>
+                                        <h3><a href="">Kiddie A</a></h3>
+                                        <div class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id enim, a, risus molestie arcu dignissim aenean. Morbi sollicitudin at eleifend quis a enim scelerisque. Arcu amet nisi et consequat commodo nulla. Sem fames blandit suspendisse at orci dolor nam.</div>
+                                        <div class="view-more"><a href="">
+                                                Chi tiết
+                                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M12.93 5.92993L19 11.9999L12.93 18.0699M4 11.9999H18.83" stroke="#1A61CC" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                                </svg>
+                                            </a></div>
+                                    </div>
+                                </div>
+                                <div class="item-course">
+                                    <div class="avarta"><a href=""><img src="images/course-1.png" class="img-fluid w-100" alt=""></a><span>Tiếng Anh Mầm non</span></div>
+                                    <div class="info">
+                                        <p>Cho trẻ từ 4-5 tuổi</p>
+                                        <h3><a href="">Kiddie A</a></h3>
+                                        <div class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id enim, a, risus molestie arcu dignissim aenean. Morbi sollicitudin at eleifend quis a enim scelerisque. Arcu amet nisi et consequat commodo nulla. Sem fames blandit suspendisse at orci dolor nam.</div>
+                                        <div class="view-more"><a href="">
+                                                Chi tiết
+                                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M12.93 5.92993L19 11.9999L12.93 18.0699M4 11.9999H18.83" stroke="#1A61CC" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                                </svg>
+                                            </a></div>
+                                    </div>
+                                </div>
+                            </div>
 						</div>
 						<div class="scroll-ev course-box" id="scroll-3">
-							<div class="title-course">Khóa Tiếng Anh THCS</div>
-							<div class="row">
-								<div class="col-md-6">
-									<div class="item-course">
-										<div class="avarta"><a href="course-detail.php"><img src="images/course-3.png" class="img-fluid w-100" alt=""><span>Tiếng Anh Mầm non</span></a></div>
-										<div class="info">
-											<h3><a href="course-detail.php">Khóa Kiddie A</a></h3>
-											<p>Cho trẻ từ 4-5 tuổi</p>
-										</div>
-									</div>
-								</div>
-								<div class="col-md-6">
-									<div class="item-course">
-										<div class="avarta"><a href="course-detail.php"><img src="images/course-3.png" class="img-fluid w-100" alt=""><span>Tiếng Anh Mầm non</span></a></div>
-										<div class="info">
-											<h3><a href="course-detail.php">Khóa Kiddie A</a></h3>
-											<p>Cho trẻ từ 4-5 tuổi</p>
-										</div>
-									</div>
-								</div>
-								<div class="col-md-6">
-									<div class="item-course">
-										<div class="avarta"><a href="course-detail.php"><img src="images/course-3.png" class="img-fluid w-100" alt=""><span>Tiếng Anh Mầm non</span></a></div>
-										<div class="info">
-											<h3><a href="course-detail.php">Khóa Kiddie A</a></h3>
-											<p>Cho trẻ từ 4-5 tuổi</p>
-										</div>
-									</div>
-								</div>
-							</div>
+							<div class="title-course">Khóa Tiếng Anh Mầm non</div>
+							<div class="list-course">
+                                <div class="item-course">
+                                    <div class="avarta"><a href=""><img src="images/course-1.png" class="img-fluid w-100" alt=""></a><span>Tiếng Anh Mầm non</span></div>
+                                    <div class="info">
+                                        <p>Cho trẻ từ 4-5 tuổi</p>
+                                        <h3><a href="">Kiddie A</a></h3>
+                                        <div class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id enim, a, risus molestie arcu dignissim aenean. Morbi sollicitudin at eleifend quis a enim scelerisque. Arcu amet nisi et consequat commodo nulla. Sem fames blandit suspendisse at orci dolor nam.</div>
+                                        <div class="view-more"><a href="">
+                                                Chi tiết
+                                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M12.93 5.92993L19 11.9999L12.93 18.0699M4 11.9999H18.83" stroke="#1A61CC" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                                </svg>
+                                            </a></div>
+                                    </div>
+                                </div>
+                                <div class="item-course">
+                                    <div class="avarta"><a href=""><img src="images/course-1.png" class="img-fluid w-100" alt=""></a><span>Tiếng Anh Mầm non</span></div>
+                                    <div class="info">
+                                        <p>Cho trẻ từ 4-5 tuổi</p>
+                                        <h3><a href="">Kiddie A</a></h3>
+                                        <div class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id enim, a, risus molestie arcu dignissim aenean. Morbi sollicitudin at eleifend quis a enim scelerisque. Arcu amet nisi et consequat commodo nulla. Sem fames blandit suspendisse at orci dolor nam.</div>
+                                        <div class="view-more"><a href="">
+                                                Chi tiết
+                                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M12.93 5.92993L19 11.9999L12.93 18.0699M4 11.9999H18.83" stroke="#1A61CC" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                                </svg>
+                                            </a></div>
+                                    </div>
+                                </div>
+                            </div>
 						</div>
 					</div>
 				</div>
 			</div>
-		</div> 
+		</div>
 	</section>
 	<section class="box-form" style="background: #fff;">
 		<div class="container">
